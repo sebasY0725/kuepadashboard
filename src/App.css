@@ -1,3 +1,10 @@
+@font-face {
+  font-family: Rounded_Elegance;
+  src: url("../src/fuente/Rounded_Elegance.ttf");
+}
+body {
+  margin: 0;
+}
 .main {
   display: flex;
   justify-content: space-between;

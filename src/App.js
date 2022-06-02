@@ -5,7 +5,7 @@ import SideBarRight from "./componentes/sideBarRight/SideBarRight";
 function App() {
   return (
     <div className="main">
-      <SideBarLeft />
+      <SideBarLeft className />
       <Home />
       <SideBarRight />
     </div>

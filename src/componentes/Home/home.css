@@ -1,7 +1,9 @@
 .mainHome {
-  background-color: rgb(226, 226, 226);
+  background-color: #f5f8fa;
   height: 100%;
   width: 100%;
   border-top-left-radius: 60px;
   border-bottom-left-radius: 60px;
+  position: relative;
+  right: 60px;
 }
