@@ -1,8 +1,10 @@
 .chart {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  border: solid;
+
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
   width: 560px;
 }
 .chartInfo {
@@ -11,8 +13,22 @@
   width: 50%;
 }
 .chartGeneral {
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
 }
 p {
+  font-family: Rounded_Elegance;
+  font-weight: bold;
   width: 50%;
+}
+.number {
+  margin-top: 30px;
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.text {
+  margin-top: 20px;
+  margin-left: 20px;
 }

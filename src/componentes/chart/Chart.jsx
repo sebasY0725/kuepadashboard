@@ -17,16 +17,16 @@ export default function Chart() {
       </Donut>
       <div className="chartGeneral">
         <div className="chartInfo">
-          <p>Leads obtenidos</p>
-          <p>50/100</p>
+          <p className="text">Leads obtenidos</p>
+          <p className="number">50/100</p>
         </div>
         <div className="chartInfo">
-          <p>Cola de llamados</p>
-          <p>50/100</p>
+          <p className="text">Cola de llamados</p>
+          <p className="number">50/100</p>
         </div>
         <div className="chartInfo">
-          <p>Matriculas finalizadas</p>
-          <p>50/100</p>
+          <p className="text">Matriculas finalizadas</p>
+          <p className="number">10/20</p>
         </div>
       </div>
     </div>

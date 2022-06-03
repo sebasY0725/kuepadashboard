@@ -3,7 +3,7 @@ import ProgressBar from "@ramonak/react-progress-bar";
 export default function Meta() {
   return (
     <div className="GroupMeta">
-      Meta grupal
+      <h2>Meta grupal</h2>
       <div className="LeadsObt">
         Leads Obtenidos 200/400
         <ProgressBar
