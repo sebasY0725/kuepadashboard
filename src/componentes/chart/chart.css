@@ -1,0 +1,18 @@
+.chart {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: solid;
+  width: 560px;
+}
+.chartInfo {
+  display: flex;
+  gap: 12px;
+  width: 50%;
+}
+.chartGeneral {
+  width: 100%;
+}
+p {
+  width: 50%;
+}
