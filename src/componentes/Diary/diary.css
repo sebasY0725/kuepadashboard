@@ -1,5 +1,58 @@
 .Diary {
   width: 500px;
-  border: solid;
+  border-radius: 20px;
+  background-color: white;
   margin: 45px 15px 15px 0;
+  padding-bottom: 40px;
+}
+.DiaryTitle {
+  width: 100%;
+  font-size: 18px;
+  padding: 20px;
+}
+.ListItem {
+  background-color: #ecf3fd;
+  display: flex;
+  height: 50px;
+  align-items: center;
+}
+.ColorLine {
+  background-color: #c09ef6;
+  height: 100%;
+  width: 3%;
+}
+.ListItemIcons {
+  display: flex;
+  gap: 8px;
+  margin-right: 20px;
+}
+.ListItemP1 {
+  font-family: Rounded_Elegance;
+  font-weight: bold;
+}
+.ListItemP2 {
+  font-family: Rounded_Elegance;
+  font-weight: bold;
+  font-size: 10px;
+}
+.StatusIcon {
+  width: 155px;
+}
+.ItemName {
+  font-family: Rounded_Elegance;
+  font-weight: bold;
+  width: 100%;
+  margin-left: 10px;
+}
+.ItemsLists {
+  width: 100%;
+}
+.ListItemWhite {
+  background-color: white;
+}
+.ColorLine2 {
+  background-color: #027b92;
+}
+.ColorLine3 {
+  background-color: #b24592;
 }

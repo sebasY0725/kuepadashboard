@@ -16,8 +16,14 @@ h2 {
   margin-top: 20px;
 }
 .numbText {
+  font-family: Rounded_Elegance;
+  font-weight: bold;
+  width: 50%;
   text-align: right;
 }
 .TextTx {
+  font-family: Rounded_Elegance;
+  font-weight: bold;
+  width: 50%;
   width: 100%;
 }

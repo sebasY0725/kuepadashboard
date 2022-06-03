@@ -17,18 +17,20 @@
   flex-wrap: wrap;
   width: 100%;
 }
-p {
+
+.number {
   font-family: Rounded_Elegance;
   font-weight: bold;
   width: 50%;
-}
-.number {
   margin-top: 30px;
   font-size: 25px;
   margin-right: 10px;
 }
 
 .text {
+  font-family: Rounded_Elegance;
+  font-weight: bold;
+  width: 50%;
   margin-top: 20px;
   margin-left: 20px;
 }

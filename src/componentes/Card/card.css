@@ -44,12 +44,18 @@
 }
 
 .info-title {
+  font-family: Rounded_Elegance;
+  font-weight: bold;
+  width: 50%;
   font-size: 14px;
   margin-bottom: 4px;
   width: 100%;
 }
 
 .info-number {
+  font-family: Rounded_Elegance;
+  font-weight: bold;
+  width: 50%;
   font-size: 16px;
   font-weight: 600;
   display: flex;
