@@ -33,11 +33,76 @@ export default function SideBarRight() {
   }, []);
   return (
     <div className="derMain">
-      <div className="cajita">{data[1]?.name}</div>
-      <div className="cajita">{data[2]?.name}</div>
-      <div className="cajita">{data[3]?.name} </div>
-      <div className="cajita">{data[4]?.name}</div>
-      <div className="cajita">{data[5]?.name}</div>
+      <div className="cajita">
+        <div className="SocialIconText">
+          <img
+            className="SocialImg"
+            src="https://brandlogos.net/wp-content/uploads/2021/11/whatsapp-logo.png"
+            alt="WhatsappIcon"
+          />
+          <p className="SocialText">WHATSAPP</p>
+        </div>
+        <div className="cajitaName">
+          <p className="CajitaP">{data[1]?.name}</p>
+          <p className="Timer"> 6 min ago</p>
+        </div>
+      </div>
+      <div className="cajita">
+        <div className="SocialIconText">
+          <img
+            className="SocialImg Face"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/640px-Facebook_icon_2013.svg.png"
+            alt="FacebookIcon"
+          />
+          <p className="SocialText">FACEBOOK</p>
+        </div>
+        <div className="cajitaName">
+          <p className="CajitaP">{data[2]?.name}</p>
+          <p className="Timer"> 8 min ago</p>
+        </div>
+      </div>
+      <div className="cajita">
+        <div className="SocialIconText">
+          <img
+            className="SocialImg"
+            src="https://img.icons8.com/color/480/apple-mail.png"
+            alt="MailIcon"
+          />
+          <p className="SocialText">MAIL</p>
+        </div>
+        <div className="cajitaName">
+          <p className="CajitaP">{data[3]?.name}</p>
+          <p className="Timer"> 25 min ago</p>
+        </div>
+      </div>
+      <div className="cajita">
+        <div className="SocialIconText">
+          <img
+            className="SocialImg"
+            src="https://brandlogos.net/wp-content/uploads/2021/11/whatsapp-logo.png"
+            alt="WhatsappIcon"
+          />
+          <p className="SocialText">WHATSAPP</p>
+        </div>
+        <div className="cajitaName">
+          <p className="CajitaP">{data[4]?.name}</p>
+          <p className="Timer"> 6 min ago</p>
+        </div>
+      </div>
+      <div className="cajita">
+        <div className="SocialIconText">
+          <img
+            className="SocialImg"
+            src="https://img.icons8.com/color/480/apple-mail.png"
+            alt="MailIcon"
+          />
+          <p className="SocialText">MAIL</p>
+        </div>
+        <div className="cajitaName">
+          <p className="CajitaP">{data[5]?.name}</p>
+          <p className="Timer"> 6 min ago</p>
+        </div>
+      </div>
     </div>
   );
 }

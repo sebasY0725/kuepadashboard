@@ -9,11 +9,13 @@
   box-sizing: border-box;
 }
 .topH {
-  display: flex;
   width: 100%;
   font-family: Rounded_Elegance;
-  color: #f36725;
+  color: gray;
   align-items: center;
+  text-align: center;
+  margin-top: 25px;
+  line-height: 10px;
 }
 .elements {
   display: flex;
@@ -32,4 +34,19 @@
   gap: 90px;
   flex-direction: column;
   cursor: pointer;
+}
+
+.LogoKET {
+  text-align: center;
+  font-family: Rounded_Elegance;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.OtherColor {
+  color: #f36725;
+}
+
+.MiniText {
+  font-size: 8px;
 }

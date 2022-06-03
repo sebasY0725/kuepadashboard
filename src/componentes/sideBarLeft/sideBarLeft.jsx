@@ -9,7 +9,13 @@ export default function SideBarLeft() {
   return (
     <div className="izqMain">
       <div className="topIcons">
-        <div className="topH">KET Kuepa EduTech</div>
+        <p className="topH">
+          <span className="LogoKET OtherColor">k</span>
+          <span className="LogoKET">et</span>
+          <br />
+          <span className="MiniText OtherColor">Kuepa</span>
+          <span className="MiniText">EduTech</span>
+        </p>
         <div className="elements">
           <HomeIcon style={{ fontSize: 50, color: "white" }} />
           <AssignmentIcon style={{ fontSize: 50, color: "white" }} />

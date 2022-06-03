@@ -11,8 +11,51 @@
 }
 .cajita {
   display: flex;
-  border: solid;
+  flex-direction: column;
   width: 100px;
   height: 100px;
   margin: 34px;
+  border-radius: 20px;
+}
+.SocialImg {
+  width: 30px;
+  object-fit: contain;
+  bottom: 7px;
+  position: relative;
+}
+.SocialIconText {
+  display: flex;
+  height: 24px;
+  width: 100%;
+  align-items: center;
+  background-color: #9699b4;
+  border-radius: 20px 20px 0 0;
+}
+
+.SocialText {
+  font-size: 10px;
+  color: white;
+  text-align: right;
+  padding: 8px;
+  width: 100%;
+}
+.cajitaName {
+  background-color: #464858;
+  height: 100%;
+  border-radius: 0 0 20px 20px;
+  color: white;
+  font-size: 18px;
+  padding: 12px;
+}
+.CajitaP {
+  height: 40px;
+}
+.Timer {
+  font-size: 12px;
+  color: #575864;
+}
+.Face {
+  width: 20px;
+  left: 6px;
+  bottom: 8px;
 }
