@@ -7,31 +7,34 @@ import SearchIcon from "@mui/icons-material/Search";
 import FilterAltIcon from "@mui/icons-material/FilterAlt";
 import "simple-react-donut-chart/src/style.css";
 import { Donut, DonutValue } from "react-donut-component";
+import Card from "../Card/Card";
 export default function Home() {
   const [data, setData] = useState({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  useEffect(() => {
-    const getData = async () => {
-      try {
-        const response = await fetch(`https://api.opendota.com/api/proPlayers`);
-        if (!response.ok) {
-          throw new Error(
-            `This is an HTTP error: The status is ${response.status}`
-          );
-        }
-        let actualData = await response.json();
-        console.log(actualData);
-        setData(actualData);
-
-        setError(null);
-      } catch (err) {
-        setError(err.message);
-        setData(null);
-      } finally {
-        setLoading(false);
+  const getData = async () => {
+    try {
+      const response = await fetch(`https://api.opendota.com/api/proPlayers`);
+      if (!response.ok) {
+        throw new Error(
+          `This is an HTTP error: The status is ${response.status}`
+        );
       }
-    };
+
+      let actualData = await response.json();
+      console.log(actualData);
+      setData(actualData);
+
+      setError(null);
+    } catch (err) {
+      setError(err.message);
+      setData(null);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  useEffect(() => {
     getData();
   }, []);
 
@@ -94,12 +97,21 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="Diary">
-        Conexiones de agenda para hoy
-        {data.name}
-        {data.name}
-        {data.name}
-        {data.name}
+      <div className="DiaryContainer">
+        <div className="Diary">
+          Conexiones de agenda para hoy
+          <li>{data[1]?.name}</li>
+          <li>{data[2]?.name}</li>
+          <li>{data[3]?.name}</li>
+          <li>{data[4]?.name}</li>
+          <li>{data[5]?.name}</li>
+        </div>
+        Tu plan de hoy
+        <div className="cards">
+          <Card />
+          <Card />
+          <Card />
+        </div>
       </div>
     </div>
   );

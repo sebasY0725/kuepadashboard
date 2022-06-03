@@ -26,3 +26,16 @@
   border: solid;
   margin-left: 50px;
 }
+.DiaryContainer {
+  display: flex;
+}
+.Diary {
+  width: 500px;
+  border: solid;
+  margin: 15px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}

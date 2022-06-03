@@ -1,0 +1,49 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  display: flex;
+  max-width: 256px;
+  min-width: 256px;
+  height: 138px;
+  padding: 16px;
+  gap: 12px;
+  box-sizing: border-box;
+}
+
+.number-square {
+  background-color: red;
+  width: 100%;
+  border-radius: 16px;
+}
+
+.number-container {
+  font-size: 39px;
+  height: 40px;
+  text-align: center;
+  border-radius: 100%;
+  padding: 15px;
+  position: relative;
+  margin: 0 auto;
+  background-color: white;
+  width: 40px;
+  top: 18px;
+  color: red;
+}
+
+.card-info {
+  width: 100%;
+}
+
+.info-title {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.info-number {
+  font-size: 16px;
+  font-weight: 600;
+}
