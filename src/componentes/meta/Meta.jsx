@@ -5,16 +5,25 @@ export default function Meta() {
     <div className="GroupMeta">
       <h2>Meta grupal</h2>
       <div className="LeadsObt">
-        Leads Obtenidos 200/400
+        <div className="barText">
+          <p className="TextTx">Leads Obtenidos</p>
+          <p className="numbText">200/400</p>
+        </div>
+
         <ProgressBar
           height={"15px"}
+          width={"100%"}
           bgColor={"#f36725"}
           completed={50}
           customLabel="  "
         />
       </div>
       <div className="tuitionDone">
-        Matriculas realizadas 50/100
+        <div className="barText">
+          <p className="TextTx">Matriculas realizadas</p>
+          <p className="numbText">50/100</p>
+        </div>
+
         <ProgressBar
           height={"15px"}
           bgColor={"#f36725"}

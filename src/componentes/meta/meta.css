@@ -1,5 +1,23 @@
 .GroupMeta {
   width: 330px;
-  border: solid;
   margin-left: 50px;
+  padding: 12px;
+  border-radius: 20px;
+  background-color: white;
+}
+h2 {
+  font-family: Rounded_Elegance;
+  font-weight: bold;
+  width: 50%;
+}
+.barText {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.numbText {
+  text-align: right;
+}
+.TextTx {
+  width: 100%;
 }
