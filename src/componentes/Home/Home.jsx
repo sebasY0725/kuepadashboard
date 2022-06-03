@@ -1,5 +1,5 @@
 import "./home.css";
-
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import TextField from "@mui/material/TextField";
 import InputAdornment from "@mui/material/InputAdornment";
 import SearchIcon from "@mui/icons-material/Search";
@@ -36,9 +36,15 @@ export default function Home() {
 
       <div className="DiaryContainer">
         <Diary />
-
         <div>
-          <h1> Tu plan de hoy </h1>
+          <div className="planSection">
+            <h1 className="planTitle"> Tu Plan de hoy </h1>
+            <div className="Gestion">
+              <h4>Ir a la gestion de llamados</h4>
+              <ArrowForwardIosIcon />
+            </div>
+          </div>
+
           <div className="cards">
             <Card />
             <Card />

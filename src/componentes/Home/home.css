@@ -24,10 +24,30 @@
 
 .DiaryContainer {
   display: flex;
+  padding-right: 140px;
 }
-
 
 .cards {
   display: flex;
   flex-wrap: wrap;
+  gap: 20px;
+}
+.planTitle {
+  font-family: Rounded_Elegance;
+  margin-bottom: 30px;
+}
+.planSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.Gestion {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+h4 {
+  font-family: Rounded_Elegance;
+  font-weight: 500;
 }
