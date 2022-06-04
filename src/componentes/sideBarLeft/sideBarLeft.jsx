@@ -17,14 +17,39 @@ export default function SideBarLeft() {
           <span className="MiniText">EduTech</span>
         </p>
         <div className="elements">
-          <HomeIcon style={{ fontSize: 50, color: "white" }} />
-          <AssignmentIcon style={{ fontSize: 50, color: "white" }} />
-          <HorizontalSplitIcon style={{ fontSize: 50, color: "white" }} />
+          <button className="IconButton">
+            <HomeIcon
+              style={{ fontSize: 50, color: "white" }}
+              sx={{ "&:hover": { color: "#f36725 !important" } }}
+            />
+          </button>
+          <button className="IconButton">
+            <AssignmentIcon
+              style={{ fontSize: 50, color: "white" }}
+              sx={{ "&:hover": { color: "#f36725 !important" } }}
+            />
+          </button>
+          <button className="IconButton">
+            <HorizontalSplitIcon
+              style={{ fontSize: 50, color: "white" }}
+              sx={{ "&:hover": { color: "#f36725 !important" } }}
+            />
+          </button>
         </div>
       </div>
       <div className="bottomIcons">
-        <ChatBubbleOutlineIcon style={{ fontSize: 50, color: "white" }} />
-        <AccountCircleIcon style={{ fontSize: 50, color: "white" }} />
+        <button className="IconButton">
+          <ChatBubbleOutlineIcon
+            style={{ fontSize: 50, color: "white" }}
+            sx={{ "&:hover": { color: "#f36725 !important" } }}
+          />
+        </button>
+        <button className="IconButton">
+          <AccountCircleIcon
+            style={{ fontSize: 50, color: "white" }}
+            sx={{ "&:hover": { color: "#f36725 !important" } }}
+          />
+        </button>
       </div>
     </div>
   );

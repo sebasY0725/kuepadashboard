@@ -33,7 +33,6 @@
   display: flex;
   gap: 90px;
   flex-direction: column;
-  cursor: pointer;
 }
 
 .LogoKET {
@@ -49,4 +48,9 @@
 
 .MiniText {
   font-size: 8px;
+}
+.IconButton {
+  background-color: #2b2e43;
+  border: #2b2e43;
+  cursor: pointer;
 }
