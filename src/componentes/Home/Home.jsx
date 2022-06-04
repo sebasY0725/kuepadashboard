@@ -10,6 +10,8 @@ import Card from "../Card/Card";
 import Chart from "../chart/Chart";
 import Meta from "../meta/Meta";
 import Diary from "../Diary/Diary";
+import CardSecond from "../Card/CardSecond";
+import CardThird from "../Card/CardThird";
 export default function Home() {
   return (
     <div className="mainHome">
@@ -47,8 +49,8 @@ export default function Home() {
 
           <div className="cards">
             <Card />
-            <Card />
-            <Card />
+            <CardSecond />
+            <CardThird />
           </div>
         </div>
       </div>
