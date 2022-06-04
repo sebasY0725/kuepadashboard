@@ -4,13 +4,18 @@ export default function Chart() {
   return (
     <div className="chart">
       <Donut
-        styleTrack={{ strokeWidth: 15, stroke: "gray" }}
+        animate
+        styleTrack={{ strokeWidth: 15, stroke: "#e1e1e1" }}
         styleIndicator={{ stroke: "#f36725", strokeLinecap: "round" }}
       >
         <DonutValue
-          style={{ fontWeight: "bold" }}
-          styleSymbol={{ fontWeight: "bold", fontSize: "30px" }}
-          symbolPosition="center"
+          style={{ fontWeight: "bold", fontFamily: "Rounded_Elegance" }}
+          styleSymbol={{
+            fontWeight: "bold",
+            fontSize: "30px",
+            fontFamily: "Rounded_Elegance",
+            paddingBottom: "10px",
+          }}
         >
           50
         </DonutValue>

@@ -17,7 +17,7 @@
 }
 
 .number-square {
-  background-color: red;
+  background: linear-gradient(to bottom, #cc66ff 0%, #0099ff 100%);
   width: 100%;
   border-radius: 16px;
 }

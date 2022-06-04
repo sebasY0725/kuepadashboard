@@ -11,9 +11,10 @@ export default function Meta() {
         </div>
 
         <ProgressBar
+          animateOnRender
           height={"15px"}
           width={"100%"}
-          bgColor={"#f36725"}
+          bgColor={"linear-gradient(to right, #ff99cc 0%, #ff6600 100%)"}
           completed={50}
           customLabel="  "
         />
@@ -25,8 +26,9 @@ export default function Meta() {
         </div>
 
         <ProgressBar
+          animateOnRender
           height={"15px"}
-          bgColor={"#f36725"}
+          bgColor={"linear-gradient(to right, #ff99cc 0%, #ff6600 100%)"}
           completed={50}
           customLabel="  "
         />
